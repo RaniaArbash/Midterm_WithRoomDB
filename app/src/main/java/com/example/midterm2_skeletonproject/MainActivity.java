@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements AddYearAndModelDi
         myName = (EditText) findViewById(R.id.studentName);
         carsArrayList = new ArrayList<Car>(0);
         DatabaseClient.buildDbClient(this);
-        DatabaseClient.getAllCars();
+
     }
 
     @Override

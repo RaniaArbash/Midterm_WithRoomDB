@@ -42,11 +42,12 @@ public class DatabaseClient {
 
 //        databaseWriteExecutor.execute(()->{//Runneble Command
 //            Car[] carsFromDB =  getdbClient().carDao().loadAllCar();
-//            System.out.println(carsFromDB.length);
-//            System.out.println(carsFromDB[0].id + "  "+  carsFromDB[0].model);
-//            System.out.println(carsFromDB[1].id + "  "+  carsFromDB[1].model);
-//
-//            System.out.println(carsFromDB[2].id + "  "+  carsFromDB[2].model);
+//            this.runOnUiThread(new Runnable() {
+//                @Override
+//                public void run() {
+//                    myList.setAdapter(adapter);
+//                }
+//            });
 //
 //        });
 
